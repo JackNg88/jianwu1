@@ -1,0 +1,22 @@
+baseURL: 'https://jackng88.github.io/jianwu88/'
+title: Jian Wu
+
+# 语言
+defaultContentLanguage: en
+hasCJKLanguage: false
+
+# 主题
+theme: hugo-blox-builder
+
+# 输出格式
+outputs:
+  home:
+    - HTML
+    - RSS
+    - WebAppManifest
+    - headers
+    - redirects
+
+enableRobotsTXT: true
+paginate: 10
+summaryLength: 30
